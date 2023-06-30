@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/owenhong/Desktop/OOD Files/OOD Lectures/pa03-owenhong0/src/main/java/cs3500/pa03/Ships</OriginalElement>
+  <nodes>
+    <node x="-83.0" y="64.0">cs3500.pa03.Model.User</node>
+    <node x="101.0" y="215.0">cs3500.pa03.View.BattleView</node>
+    <node x="102.0" y="288.0">cs3500.pa03.BattleShip</node>
+    <node x="-83.0" y="215.0">cs3500.pa03.Model.BattleModel</node>
+    <node x="273.0" y="288.0">cs3500.pa03.Ships.ShipType</node>
+    <node x="122.0" y="137.0">cs3500.pa03.View.View</node>
+    <node x="-83.0" y="434.0">cs3500.pa03.Ships.Ship</node>
+    <node x="22.0" y="64.0">cs3500.pa03.Model.Comp</node>
+    <node x="-61.5" y="137.0">cs3500.pa03.Model.Model</node>
+    <node x="57.0" y="361.0">cs3500.pa03.Coord.Board</node>
+    <node x="-83.0" y="361.0">cs3500.pa03.Coord.Coord</node>
+    <node x="161.0" y="64.0">cs3500.pa03.Controller.BattleController</node>
+    <node x="196.0" y="361.0">cs3500.pa03.Driver</node>
+    <node x="-83.0" y="288.0">cs3500.pa03.GameResult</node>
+    <node x="182.5" y="-14.0">cs3500.pa03.Controller.Controller</node>
+    <node x="-33.75" y="-14.0">cs3500.pa03.Model.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cs3500.pa03.Model.Comp" target="cs3500.pa03.Model.Player" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="69.0" y="39.0" />
+      <point x="14.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cs3500.pa03.Model.BattleModel" target="cs3500.pa03.Model.Model" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cs3500.pa03.View.BattleView" target="cs3500.pa03.View.View" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cs3500.pa03.Controller.BattleController" target="cs3500.pa03.Controller.Controller" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cs3500.pa03.Model.User" target="cs3500.pa03.Model.Player" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-40.5" y="39.0" />
+      <point x="14.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8185483870967742" showDependencies="false" x="153.0" y="223.99999999999997" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
